@@ -28,11 +28,11 @@ const links = [
   },
   {
     label: 'ABOGADOS',
-    url: '#attorneyd',
+    url: '#attorneys',
   },
   {
     label: 'CONTACTO',
-    url: '#cantact',
+    url: '#contact',
   },
 ]
 

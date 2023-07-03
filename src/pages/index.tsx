@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Services from '@/components/Services'
 import About from '@/components/About'
+import OurAttorneys from '@/components/OurAttorneys'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Services />
       <About />
+      <OurAttorneys />
     </>
   )
 }
