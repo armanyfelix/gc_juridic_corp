@@ -4,10 +4,8 @@ import Header from './Header'
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <div>
-        <Header />
-      </div>
-      <main className="mt-52">{children}</main>
+      <Header />
+      <main>{children}</main>
       <Footer />
     </>
   )

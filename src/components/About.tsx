@@ -16,7 +16,7 @@ export default function About() {
             className="relative left-5 top-5 "
           />
         </div>
-        <div className="mx-10 mt-7 text-warmGray-600">
+        <div className="mx-10 mt-7 text-slate-700">
           <h1 className="font-serif text-3xl mb-10">
             Sobre Nosotros
           </h1>

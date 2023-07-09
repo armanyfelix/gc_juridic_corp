@@ -11,10 +11,10 @@ function OurAttorneys() {
   return (
     <section
       id="attorneys"
-      className="bg-[url('/imgs/team-bg.jpg')] bg-no-repeat bg-auto w-full bg-white"
+      className="bg-[url('/images/team-bg.jpg')] bg-no-repeat bg-auto w-full bg-white overflow-hidden"
     >
-      <div className="flex items-center justify-center space-x-4 ">
-        <div className="space-y-10 translate-x-36">
+      <div className="flex items-center flex-wrap justify-center space-x-4 ">
+        <div className="space-y-10 md:translate-x-36 py-10">
           <h1 className="font-serif text-primary text-3xl">
             Abogados calificados
           </h1>
@@ -29,10 +29,10 @@ function OurAttorneys() {
             Contáctanos...
           </button>
         </div>
-        <div className="flex items-center z-10 translate-x-64">
-          <div className="overflow-hidden group hover:shadow mr-5">
+        <div className="flex flex-wrap justify-center items-center z-20 md:translate-x-64 space-y-5 md:space-y-0 py-5 space-x-5">
+          <div className="overflow-hidden group ">
             <Image
-              src="/imgs/team-05.jpg"
+              src="/images/team-05.jpg"
               width="257"
               height={600}
               alt="05"
@@ -52,7 +52,7 @@ function OurAttorneys() {
                   className="btn btn-ghost btn-circle"
                 >
                   <Image
-                    src="/icons/facebook.svg"
+                    src={facebookIcon}
                     width="25"
                     height="25"
                     alt="facebook"
@@ -64,7 +64,7 @@ function OurAttorneys() {
                   className="btn btn-ghost btn-circle"
                 >
                   <Image
-                    src="/icons/linkedin.svg"
+                    src={linkedinIcon}
                     width="25"
                     height="25"
                     alt="linkedin"
@@ -76,7 +76,7 @@ function OurAttorneys() {
                   className="btn btn-ghost btn-circle"
                 >
                   <Image
-                    src="/icons/twitter.svg"
+                    src={twitterIcon}
                     width="25"
                     height="25"
                     alt="twitter"
@@ -85,7 +85,7 @@ function OurAttorneys() {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden group hover:shadow">
+          <div className="overflow-hidden group bg-white">
             <Image
               src="/imgs/team-06.jpg"
               width="257"
@@ -100,7 +100,7 @@ function OurAttorneys() {
               <h2 className="font-serif text-slate-700 text-2xl">
                 Alex Mitchell
               </h2>
-              <div className="flex items-center justify-evenly mt-7">
+              <div className="flex items-center justify-evenly mt-7 z-10 bg-white">
                 <Link
                   href="https://www.facebook.com"
                   target="_blank"
@@ -141,8 +141,14 @@ function OurAttorneys() {
             </div>
           </div>
         </div>
-        <div className="bg-no-repeat bg-cover bg-slate-500 from-primary to-primary bg-center w-[500px] h-[800px] bg- bg-[url(/imgs/bg-01.jpg)]" />
       </div>
+      <Image
+        src="/images/bg-01.jpg"
+        width="250"
+        height="500"
+        alt="bg-2"
+        className=" w-full relative top-0  h-full"
+      />
     </section>
   );
 }
