@@ -32,7 +32,7 @@ export default function About() {
             <br />
             undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
             <br />
-            of "de Finibus Bonorum et Malorum
+            of de Finibus Bonorum et Malorum
           </p>
           <button className="bg-primary py-3 px-6 text-white font-semibold hover:brightness-110 ease-in duration-200">
             Más Sobre Nosotros...
