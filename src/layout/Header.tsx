@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
-import { ClockIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { ClockIcon } from "@heroicons/react/24/outline";
 
 const links = [
   {
@@ -112,7 +112,6 @@ function Header() {
                     <li key={i}>
                       <Link
                         href={l.url}
-                        className="hover:text-primary ease-in duration-200"
                       >
                         {l.label}
                       </Link>

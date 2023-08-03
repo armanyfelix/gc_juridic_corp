@@ -25,7 +25,7 @@ export default function About() {
             <br />
             roots in a piece of classical Latin literature from 45 BC, making it over 2000
             <br />
-            years old. Richard McClintock, a Latin professor at, 
+            years old. Richard McClintock, a Latin professor at,
           </p>
           <p className="leading-8 pb-10">
             and going through the cites of the word in classical literature, discovered the

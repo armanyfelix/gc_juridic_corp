@@ -13,7 +13,7 @@ function OurAttorneys() {
       id="attorneys"
       className="bg-[url('/images/team-bg.jpg')] bg-no-repeat bg-auto w-full bg-white overflow-hidden"
     >
-      <div className="flex items-center flex-wrap justify-center space-x-4 ">
+      <div className="flex items-center flex-wrap justify-center space-x-4">
         <div className="space-y-10 md:translate-x-36 py-10">
           <h1 className="font-serif text-primary text-3xl">
             Abogados calificados
@@ -30,7 +30,7 @@ function OurAttorneys() {
           </button>
         </div>
         <div className="flex flex-wrap justify-center items-center z-20 md:translate-x-64 space-y-5 md:space-y-0 py-5 space-x-5">
-          <div className="overflow-hidden group ">
+          <div className="overflow-hidden groupk">
             <Image
               src="/images/team-05.jpg"
               width="257"
@@ -87,7 +87,7 @@ function OurAttorneys() {
           </div>
           <div className="overflow-hidden group bg-white">
             <Image
-              src="/imgs/team-06.jpg"
+              src="/images/team-06.jpg"
               width="257"
               height={600}
               alt="06"
@@ -142,13 +142,13 @@ function OurAttorneys() {
           </div>
         </div>
       </div>
-      <Image
+      {/* <Image
         src="/images/bg-01.jpg"
         width="250"
         height="500"
         alt="bg-2"
         className=" w-full relative top-0  h-full"
-      />
+      /> */}
     </section>
   );
 }

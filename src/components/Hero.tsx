@@ -18,7 +18,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-1/2">
+        <div className="absolute flex justify-between transform translate-y-1/2 left-2 right-2 top-1/2">
           <a
             href="#slide3"
             className="btn btn-circle border-primary bg-transparent hover:bg-primary hover:border-primary hover:text-black ease-in"
@@ -48,7 +48,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-1/2">
+        <div className="absolute flex justify-between transform translate-y-1/2 left-2 right-2 top-1/2">
           <a
             href="#slide1"
             className="btn btn-circle border-primary bg-transparent hover:bg-primary hover:border-primary hover:text-black ease-in"
@@ -78,7 +78,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-2 right-2 top-1/2">
+        <div className="absolute flex justify-between transform translate-y-1/2 left-2 right-2 top-1/2">
           <a
             href="#slide2"
             className="btn btn-circle border-primary bg-transparent hover:bg-primary hover:border-primary hover:text-black ease-in"
