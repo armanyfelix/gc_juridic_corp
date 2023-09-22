@@ -2,9 +2,9 @@
 
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    // "./app/**/*.{js,ts,jsx,tsx}",
+    // "./pages/**/*.{js,ts,jsx,tsx}",
+    // "./components/**/*.{js,ts,jsx,tsx}",
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -14,7 +14,7 @@ module.exports = {
       {
         mytheme: {
           "primary": "#C9BA8F",
-          // "secondary": "#f6d860",
+          // "secondary": "#f6d860",          
           // "accent": "#37cdbe",
           // "neutral": "#3d4451",
           // "base-100": "#ffffff",
