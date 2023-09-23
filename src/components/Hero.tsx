@@ -5,7 +5,7 @@ function Hero() {
     <div className="carousel h-screen w-full overflow-hidden">
       <div
         id="slide1"
-        className="carousel-item relative w-full pt-[90px] sm:pt-[170px]"
+        className="carousel-item relative w-full pt-[90px] "
       >
         <div className="bg-cover bg-bottom lg:bg-top w-full bg-no-repeat text-white bg-[url(/pictures/hero-1.jpg)] md:px-28">
           <div className="pt-40 lg:pt-56 px-16 md:px-36">

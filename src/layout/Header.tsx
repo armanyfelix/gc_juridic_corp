@@ -59,9 +59,14 @@ function Header() {
 
   return (
     <>
-      <div id="top" className="drawer fixed z-50 bg-slate-800 max-[90px] sm:max-h-[170px] flex flex-col py-3 md:py-4 px-3 sm:px-8 md:px-8 lg:px-20  2xl:px-80">
-        <div className="pb-5 mb-3 w-full hidden sm:flex items-center justify-between border-b-2 border-gray-600 
-        px-1 md:px-2 lg:px-5">
+      <div
+        id="top"
+        className="drawer fixed z-50 bg-slate-800 max-[90px] sm:max-h-[170px] flex flex-col py-3 md:py-4 px-3 sm:px-8 md:px-8 lg:px-20 2xl:px-80"
+      >
+        <div
+          className="pb-5 mb-3 w-full hidden sm:flex items-center justify-between border-b-2 border-gray-600
+        px-1 md:px-2 lg:px-5"
+        >
           <div className="flex items-center text-xs">
             <div className="flex items-center pr-2">
               <MapPinIcon className="w-4 h-4 text-primary mr-2" />
@@ -87,7 +92,7 @@ function Header() {
           type="checkbox"
           className="drawer-toggle text-white"
         />
-        <div className="drawer-content flex flex-col">
+        <div className="drawer-content drawer-end flex flex-col">
           {/* Navbar */}
           <div className="w-full navbar">
             <div className="flex-1">
@@ -110,11 +115,7 @@ function Header() {
                 {links &&
                   links.map((l, i) => (
                     <li key={i}>
-                      <Link
-                        href={l.url}
-                      >
-                        {l.label}
-                      </Link>
+                      <Link href={l.url}>{l.label}</Link>
                     </li>
                   ))}
                 {/* <li>
