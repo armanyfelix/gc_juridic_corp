@@ -28,7 +28,7 @@ const links = [
   },
   {
     label: "ABOGADOS",
-    url: "#attorneys",
+    url: "#attorney",
   },
   {
     label: "CONTACTO",
@@ -110,12 +110,12 @@ function Header() {
                 </svg>
               </Link>
             </div>
-            <div className="flex-none hidden lg:block">
-              <ul className="menu menu-horizontal">
+            <div className="hidden lg:inline">
+              <ul className="flex">
                 {links &&
                   links.map((l, i) => (
                     <li key={i}>
-                      <Link href={l.url}>{l.label}</Link>
+                      <Link href={l.url} className="btn btn-ghost">{l.label}</Link>
                     </li>
                   ))}
                 {/* <li>
@@ -146,13 +146,13 @@ function Header() {
         </div>
         <div className="drawer-side z-50">
           <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-          <ul className="menu p-4 w-80 h-full bg-slate-800">
+          <ul className="p-4 w-80 h-full bg-slate-800">
             {links &&
               links.map((l, i) => (
                 <li key={i}>
                   <Link
                     href={l.url}
-                    className="hover:text-primary ease-in duration-200"
+                    className="hover:text-primary btn btn-ghost w-full justify-start ease-in duration-200"
                   >
                     {l.label}
                   </Link>
